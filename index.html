@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AetherFlow | Autonomous AI Data Automation Platform</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="AetherFlow is a premium, high-converting, responsive landing page for an advanced AI-driven data automation platform. Zero code, self-healing pipelines, dynamic routing, and sub-millisecond analytics.">
+  <meta name="keywords" content="AI, Data Automation, Data Engineering, Autonomous Pipelines, Bento Grid, Custom Accordion, Speedrun">
+  <meta name="author" content="Antigravity AI">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AetherFlow | Autonomous AI Data Automation Platform">
+  <meta property="og:description" content="Orchestrate, automate, and scale your data infrastructure with zero code. Powered by lightning-fast AI agents.">
+  <meta property="og:image" content="assets/colorPallet.jpg">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="AetherFlow | Autonomous AI Data Automation Platform">
+  <meta property="twitter:description" content="Orchestrate, automate, and scale your data infrastructure with zero code. Powered by lightning-fast AI agents.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- Styling -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Loading Overlay -->
+  <div id="loader" class="loader-overlay">
+    <div class="loader-spinner">
+      <svg class="spinner-svg" viewBox="0 0 50 50">
+        <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle>
+      </svg>
+      <div class="loader-text">INITIALIZING AETHERFLOW</div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="#" class="logo" id="header-logo">
+        <span class="logo-icon">
+          <!-- Inline cube-16-solid.svg -->
+          <svg viewBox="0 0 16 16"><path fill="currentColor" d="M8.372 1.349a.75.75 0 0 0-.744 0l-4.81 2.748L8 7.131l5.182-3.034zM14 5.357L8.75 8.43v6.005l4.872-2.784A.75.75 0 0 0 14 11zm-6.75 9.078V8.43L2 5.357V11c0 .27.144.518.378.651z"/></svg>
+        </span>
+        <span class="logo-text">AetherFlow</span>
+      </a>
+      
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#network">Network Status</a></li>
+        </ul>
+      </nav>
+      
+      <div class="header-actions">
+        <div class="search-bar">
+          <svg class="icon-search" viewBox="0 0 20 20"><path fill="currentColor" d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33l-1.42 1.42l-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/></svg>
+          <input type="text" placeholder="Search docs..." aria-label="Search documentation" id="search-input">
+        </div>
+        <a href="#pricing" class="btn-cta btn-header-cta" id="cta-header-button">Deploy Now</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="hero-glow-1"></div>
+      <div class="hero-glow-2"></div>
+      <div class="hero-container">
+        <div class="hero-text-block">
+          <div class="badge">Next-Gen Data Automation</div>
+          <h1 class="hero-title">Autonomous Data Workflows for the Next-Gen Enterprise</h1>
+          <p class="hero-subtitle">Orchestrate, automate, and scale your data infrastructure with zero code. Powered by lightning-fast, self-correcting AI agents.</p>
+          <div class="hero-actions">
+            <a href="#pricing" class="btn-cta btn-primary" id="cta-hero-primary">Start Free Trial</a>
+            <a href="#features" class="btn-cta btn-secondary" id="cta-hero-secondary">Explore Features</a>
+          </div>
+        </div>
+        
+        <div class="hero-visual-block">
+          <div class="visual-panel">
+            <div class="panel-header">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+              <span class="panel-title">aetherflow-node-agent.config</span>
+            </div>
+            <div class="panel-body">
+              <pre><code><span class="code-keyword">const</span> flow = <span class="code-keyword">new</span> <span class="code-class">AetherFlow</span>({
+  <span class="code-prop">agenticLoops</span>: <span class="code-literal">true</span>,
+  <span class="code-prop">selfHealing</span>: <span class="code-literal">true</span>,
+  <span class="code-prop">concurrencyLimit</span>: <span class="code-literal">8192</span>,
+  <span class="code-prop">region</span>: <span class="code-string">"global"</span>
+});
+
+flow.on(<span class="code-string">"pipeline_anomaly"</span>, <span class="code-keyword">async</span> (err, ctx) => {
+  <span class="code-keyword">await</span> ctx.refactorSchema();
+  <span class="code-keyword">await</span> ctx.retryQuery();
+});</code></pre>
+            </div>
+            
+            <!-- Dynamic flow representation -->
+            <div class="dynamic-flow-viz">
+              <div class="node node-src">
+                <svg viewBox="0 0 16 16"><path fill="currentColor" d="M8.372 1.349a.75.75 0 0 0-.744 0l-4.81 2.748L8 7.131l5.182-3.034zM14 5.357L8.75 8.43v6.005l4.872-2.784A.75.75 0 0 0 14 11zm-6.75 9.078V8.43L2 5.357V11c0 .27.144.518.378.651z"/></svg>
+                <span>Src</span>
+              </div>
+              <div class="flow-line"><span class="pulse-dot"></span></div>
+              <div class="node node-agent">
+                <svg viewBox="0 0 256 256"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M10.343 3.94c.09-.542.56-.94 1.11-.94h1.093c.55 0 1.02.398 1.11.94l.149.894c.07.424.384.764.78.93c.398.164.855.142 1.205-.108l.737-.527a1.125 1.125 0 0 1 1.45.12l.773.774c.39.389.44 1.002.12 1.45l-.527.737c-.25.35-.272.806-.107 1.204c.165.397.505.71.93.78l.893.15c.543.09.94.56.94 1.109v1.094c0 .55-.397 1.02-.94 1.11l-.893.149c-.425.07-.765.383-.93.78c-.165.398-.143.854.107 1.204l.527.738c.32.447.269 1.06-.12 1.45l-.774.773a1.125 1.125 0 0 1-1.449.12l-.738-.527c-.35-.25-.806-.272-1.203-.107c-.397.165-.71.505-.781.929l-.149.894c-.09.542-.56.94-1.11.94h-1.094c-.55 0-1.019-.398-1.11-.94l-.148-.894c-.071-.424-.384-.764-.781-.93c-.398-.164-.854-.142-1.204.108l-.738.527c-.447.32-1.06.269-1.45-.12l-.773-.774a1.125 1.125 0 0 1-.12-1.45l.527-.737c.25-.35.273-.806.108-1.204c-.165-.397-.505-.71-.93-.78l-.894-.15c-.542-.09-.94-.56-.94-1.109v-1.094c0-.55.398-1.02.94-1.11l.894-.149c.424-.07.765-.383.93-.78c.165-.398.143-.854-.107-1.204l-.527-.738a1.125 1.125 0 0 1 .12-1.45l.773-.773a1.125 1.125 0 0 1 1.45-.12l.737.527c.35.25.807.272 1.204.107c.397-.165.71-.505.78-.929l.15-.894Z"/><path d="M15 12a3 3 0 1 1-6 0a3 3 0 0 1 6 0Z"/></g></svg>
+                <span>Agent</span>
+              </div>
+              <div class="flow-line"><span class="pulse-dot"></span></div>
+              <div class="node node-dest">
+                <svg viewBox="0 0 24 24" fill="none"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z"/><path d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z"/></g></svg>
+                <span>Dest</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bento to Accordion Features Section -->
+    <section class="features-section" id="features">
+      <div class="section-header">
+        <h2 class="section-title">Orchestrated Intelligence</h2>
+        <p class="section-subtitle">Deep dive into the native capabilities of AetherFlow. Designed for extreme speed and self-correcting logic.</p>
+      </div>
+
+      <div class="features-container" id="features-container">
+        
+        <!-- Card 0: Autonomous Orchestration -->
+        <div class="feature-card" id="bento-0" data-index="0">
+          <div class="feature-header" id="accordion-header-0">
+            <div class="feature-icon-title">
+              <span class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99"/></svg>
+              </span>
+              <h3 class="feature-title">Autonomous Orchestration</h3>
+            </div>
+            <button class="accordion-toggle-btn" aria-label="Expand feature content" id="accordion-btn-0">
+              <svg viewBox="0 0 24 24" fill="none"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m19.5 8.25l-7.5 7.5l-7.5-7.5"/></svg>
+            </button>
+          </div>
+          <div class="feature-body" id="accordion-content-0">
+            <div class="feature-content-inner">
+              <p class="feature-short">Self-healing ingest pipelines powered by agentic loops.</p>
+              <p class="feature-desc">Continuous execution loops monitor database health and data ingestion integrity. If anomalies are detected, the platform programmatically refactors schemas and retries queries automatically.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 1: Dynamic Data Routing -->
+        <div class="feature-card" id="bento-1" data-index="1">
+          <div class="feature-header" id="accordion-header-1">
+            <div class="feature-icon-title">
+              <span class="feature-icon">
+                <svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 0 1 5.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941"/></svg>
+              </span>
+              <h3 class="feature-title">Dynamic Data Routing &amp; Scale</h3>
+            </div>
+            <button class="accordion-toggle-btn" aria-label="Expand feature content" id="accordion-btn-1">
+              <svg viewBox="0 0 24 24" fill="none"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m19.5 8.25l-7.5 7.5l-7.5-7.5"/></svg>
+            </button>
+          </div>
+          <div class="feature-body" id="accordion-content-1">
+            <div class="feature-content-inner">
+              <p class="feature-short">Intelligent queue management and real-time scaling.</p>
+              <p class="feature-desc">Route massive workloads dynamically across edge databases and warehouses. Our ML-driven load-balancer prevents latency spikes by predicting query demand up to 10 minutes in advance.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Real-time Analytics Engine -->
+        <div class="feature-card" id="bento-2" data-index="2">
+          <div class="feature-header" id="accordion-header-2">
+            <div class="feature-icon-title">
+              <span class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z"/><path d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z"/></g></svg>
+              </span>
+              <h3 class="feature-title">Real-time Analytics Engine</h3>
+            </div>
+            <button class="accordion-toggle-btn" aria-label="Expand feature content" id="accordion-btn-2">
+              <svg viewBox="0 0 24 24" fill="none"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m19.5 8.25l-7.5 7.5l-7.5-7.5"/></svg>
+            </button>
+          </div>
+          <div class="feature-body" id="accordion-content-2">
+            <div class="feature-content-inner">
+              <p class="feature-short">Instant classification and deep-use schema insights.</p>
+              <p class="feature-desc">Parse semi-structured files, parquet logs, and custom events on-the-fly. Classify sensitive columns and generate optimized indices automatically to maintain performance.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: Cognitive Control Center -->
+        <div class="feature-card" id="bento-3" data-index="3">
+          <div class="feature-header" id="accordion-header-3">
+            <div class="feature-icon-title">
+              <span class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M10.343 3.94c.09-.542.56-.94 1.11-.94h1.093c.55 0 1.02.398 1.11.94l.149.894c.07.424.384.764.78.93c.398.164.855.142 1.205-.108l.737-.527a1.125 1.125 0 0 1 1.45.12l.773.774c.39.389.44 1.002.12 1.45l-.527.737c-.25.35-.272.806-.107 1.204c.165.397.505.71.93.78l.893.15c.543.09.94.56.94 1.109v1.094c0 .55-.397 1.02-.94 1.11l-.893.149c-.425.07-.765.383-.93.78c-.165.398-.143.854.107 1.204l.527.738c.32.447.269 1.06-.12 1.45l-.774.773a1.125 1.125 0 0 1-1.449.12l-.738-.527c-.35-.25-.806-.272-1.203-.107c-.397.165-.71.505-.781.929l-.149.894c-.09.542-.56.94-1.11.94h-1.094c-.55 0-1.019-.398-1.11-.94l-.148-.894c-.071-.424-.384-.764-.781-.93c-.398-.164-.854-.142-1.204.108l-.738.527c-.447.32-1.06.269-1.45-.12l-.773-.774a1.125 1.125 0 0 1-.12-1.45l.527-.737c.25-.35.273-.806.108-1.204c-.165-.397-.505-.71-.93-.78l-.894-.15c-.542-.09-.94-.56-.94-1.109v-1.094c0-.55.398-1.02.94-1.11l.894-.149c.424-.07.765-.383.93-.78c.165-.398.143-.854-.107-1.204l-.527-.738a1.125 1.125 0 0 1 .12-1.45l.773-.773a1.125 1.125 0 0 1 1.45-.12l.737.527c.35.25.807.272 1.204.107c.397-.165.71-.505.78-.929l.15-.894Z"/><path d="M15 12a3 3 0 1 1-6 0a3 3 0 0 1 6 0Z"/></g></svg>
+              </span>
+              <h3 class="feature-title">Cognitive Control Center</h3>
+            </div>
+            <button class="accordion-toggle-btn" aria-label="Expand feature content" id="accordion-btn-3">
+              <svg viewBox="0 0 24 24" fill="none"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m19.5 8.25l-7.5 7.5l-7.5-7.5"/></svg>
+            </button>
+          </div>
+          <div class="feature-body" id="accordion-content-3">
+            <div class="feature-content-inner">
+              <p class="feature-short">Full observability and schema configuration.</p>
+              <p class="feature-desc">Monitor your entire data stack from a single interface. Modify schema mappings, define custom transformation rules, and watch the platform apply updates globally with zero downtime.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing-section" id="pricing">
+      <div class="section-header">
+        <h2 class="section-title">Matrix-Driven Pricing</h2>
+        <p class="section-subtitle">Predictable pricing designed to scale with your ingestion throughput. Toggle billing cycles and regional currencies instantly.</p>
+      </div>
+
+      <!-- Price Switchers -->
+      <div class="pricing-controls">
+        <div class="billing-switcher-container">
+          <span class="switch-label active" id="label-monthly">Monthly</span>
+          <button class="toggle-switch-btn" role="switch" aria-checked="false" id="billing-toggle" aria-label="Toggle annual billing"></button>
+          <span class="switch-label" id="label-annual">Annual <span class="discount-badge">Save 20%</span></span>
+        </div>
+
+        <div class="currency-selector-container">
+          <label for="currency-select" class="currency-label">Currency:</label>
+          <div class="custom-select-wrapper">
+            <select id="currency-select" class="currency-select">
+              <option value="USD">USD ($)</option>
+              <option value="EUR">EUR (€)</option>
+              <option value="INR">INR (₹)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pricing Matrix Grid -->
+      <div class="pricing-grid">
+        
+        <!-- Card 1: Developer -->
+        <div class="pricing-card" id="card-starter">
+          <div class="card-header">
+            <h3 class="tier-name">Developer</h3>
+            <p class="tier-tagline">Perfect for building and testing agentic loops.</p>
+          </div>
+          <div class="card-price-container">
+            <div class="price-wrapper">
+              <span class="currency-symbol" id="symbol-starter">$</span>
+              <span class="price-value" id="price-starter">19</span>
+              <span class="billing-period" id="period-starter">/mo</span>
+            </div>
+            <p class="annual-savings-note" id="savings-starter">&nbsp;</p>
+          </div>
+          <ul class="tier-features">
+            <li>
+              <svg class="feature-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.5 12.75l6 6 9-13.5"/></svg>
+              <span>Up to 5 active agent loops</span>
+            </li>
+            <li>
+              <svg class="feature-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.5 12.75l6 6 9-13.5"/></svg>
+              <span>100,000 processed events/mo</span>
+            </li>
+            <li>
+              <svg class="feature-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.5 12.75l6 6 9-13.5"/></svg>
+              <span>Self-healing schema checks</span>
+            </li>
+            <li class="unsupported">
+              <svg class="feature-x" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+              <span>Dynamic queue load balancer</span>
+            </li>
+          </ul>
+          <a href="#" class="btn-cta btn-card-cta" id="btn-select-starter">Get Started</a>
+        </div>
+
+        <!-- Card 2: Scale (Highlighted) -->
+        <div class="pricing-card highlighted" id="card-professional">
+          <div class="popular-badge">Most Popular</div>
+          <div class="card-header">
+            <h3 class="tier-name">Scale</h3>
+            <p class="tier-tagline">Ideal for high-throughput production workloads.</p>
+          </div>
+          <div class="card-price-container">
+            <div class="price-wrapper">
+              <span class="currency-symbol" id="symbol-professional">$</span>
+              <span class="price-value" id="price-professional">49</span>
+              <span class="billing-period" id="period-professional">/mo</span>
+            </div>
+            <p class="annual-savings-note" id="savings-professional">&nbsp;</p>
+          </div>
+          <ul class="tier-features">
+            <li>
+              <svg class="feature-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.5 12.75l6 6 9-13.5"/></svg>
+              <span>Unlimited active agent loops</span>
+            </li>
+            <li>
+              <svg class="feature-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.5 12.75l6 6 9-13.5"/></svg>
+              <span>5,000,000 processed events/mo</span>
+            </li>
+            <li>
+              <svg class="feature-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.5 12.75l6 6 9-13.5"/></svg>
+              <span>Self-healing schema checks</span>
+            </li>
+            <li>
+              <svg class="feature-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.5 12.75l6 6 9-13.5"/></svg>
+              <span>Dynamic queue load balancer</span>
+            </li>
+          </ul>
+          <a href="#" class="btn-cta btn-card-cta highlighted" id="btn-select-professional">Upgrade to Scale</a>
+        </div>
+
+        <!-- Card 3: Enterprise -->
+        <div class="pricing-card" id="card-enterprise">
+          <div class="card-header">
+            <h3 class="tier-name">Enterprise</h3>
+            <p class="tier-tagline">Customizable capacity for massive scale.</p>
+          </div>
+          <div class="card-price-container">
+            <div class="price-wrapper">
+              <span class="currency-symbol" id="symbol-enterprise">$</span>
+              <span class="price-value" id="price-enterprise">99</span>
+              <span class="billing-period" id="period-enterprise">/mo</span>
+            </div>
+            <p class="annual-savings-note" id="savings-enterprise">&nbsp;</p>
+          </div>
+          <ul class="tier-features">
+            <li>
+              <svg class="feature-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.5 12.75l6 6 9-13.5"/></svg>
+              <span>Custom multi-agent clusters</span>
+            </li>
+            <li>
+              <svg class="feature-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.5 12.75l6 6 9-13.5"/></svg>
+              <span>Unlimited monthly events</span>
+            </li>
+            <li>
+              <svg class="feature-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.5 12.75l6 6 9-13.5"/></svg>
+              <span>Dedicated regional clusters</span>
+            </li>
+            <li>
+              <svg class="feature-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.5 12.75l6 6 9-13.5"/></svg>
+              <span>24/7 custom engineering SLA</span>
+            </li>
+          </ul>
+          <a href="#" class="btn-cta btn-card-cta" id="btn-select-enterprise">Contact Enterprise</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Network / Social Proof Section -->
+    <section class="network-section" id="network">
+      <div class="network-container">
+        <h2 class="section-title">Global Event Ingestion Grid</h2>
+        <p class="section-subtitle">Real-time status of AetherFlow self-healing edge nodes across regional hubs.</p>
+        
+        <div class="metrics-grid">
+          <div class="metric-card" id="metric-events">
+            <div class="metric-value">1,248,392,028</div>
+            <div class="metric-label">Processed Events Today</div>
+          </div>
+          <div class="metric-card" id="metric-uptime">
+            <div class="metric-value">99.999%</div>
+            <div class="metric-label">Platform Ingestion Uptime</div>
+          </div>
+          <div class="metric-card" id="metric-latency">
+            <div class="metric-value">&lt; 0.42ms</div>
+            <div class="metric-label">Average Edge Routing Latency</div>
+          </div>
+        </div>
+
+        <div class="partners-logos">
+          <div class="logo-title">TRUSTED BY LEADERS IN DECENTRALIZED DATA ARCHITECTURES</div>
+          <div class="logos-row">
+            <span class="partner-logo">NEXUS DATA</span>
+            <span class="partner-logo">SYNAPSE AI</span>
+            <span class="partner-logo">KUBEQ</span>
+            <span class="partner-logo">EDGEFLOW</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <div class="logo">
+          <span class="logo-icon">
+            <svg viewBox="0 0 16 16"><path fill="currentColor" d="M8.372 1.349a.75.75 0 0 0-.744 0l-4.81 2.748L8 7.131l5.182-3.034zM14 5.357L8.75 8.43v6.005l4.872-2.784A.75.75 0 0 0 14 11zm-6.75 9.078V8.43L2 5.357V11c0 .27.144.518.378.651z"/></svg>
+          </span>
+          <span class="logo-text">AetherFlow</span>
+        </div>
+        <p class="brand-desc">Building autonomous self-correcting pipelines for the global data layer.</p>
+      </div>
+      <div class="footer-links">
+        <div class="links-group">
+          <h4>Developers</h4>
+          <ul>
+            <li><a href="https://github.com/Antigravity-AI/aetherflow-speedrun" target="_blank" rel="noopener noreferrer" class="link-with-icon">GitHub Repository <svg viewBox="0 0 24 24" class="icon-link"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg></a></li>
+            <li><a href="assets/demo.mp4" target="_blank" rel="noopener noreferrer" class="link-with-icon">Watch Demo Video <svg viewBox="0 0 24 24" class="icon-link"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg></a></li>
+            <li><a href="assets/fonts.pdf" target="_blank" rel="noopener noreferrer" class="link-with-icon">Typography Spec <svg viewBox="0 0 24 24" class="icon-link"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="copyright">&copy; 2026 AetherFlow Technologies. Phase 1 speedrun build.</p>
+        <p class="build-version">v1.0.0-beta.1 (Built in 500ms)</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="app.js"></script>
+</body>
+</html>
